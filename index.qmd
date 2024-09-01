@@ -1,0 +1,67 @@
+---
+title: "Post-Bayes seminar series"
+toc: false
+toc-depth: 1
+toc-title: "Contents"
+format:
+  html:
+    smooth-scroll: true
+---
+
+# Mission statement
+
+Bayesian inference has become a popular framework for decision-making given its consistent and flexible handling of uncertainty.
+In this regime, however, the statistician is subject to several surprisingly strong assumptions, which are known to be violated in almost all modern settings.
+As a remedy to the endemic violation of these assumptions in modern machine learning, a family of so-called **post-Bayesian** procedures have been proposed, which preserve Bayesian characteristics^[For example, incorporation of prior knowledge and uncertainty quantification.] while extending beyond Bayes’ rule as an epistemological principle. 
+Among these are a family of [generalisations of the Bayesian update](https://arxiv.org/abs/1904.02063) which replace the statistical model with a loss function, the [Martingale posterior](https://academic.oup.com/jrsssb/article/85/5/1357/7597700?login=false), and many more.
+
+This seminar series aims to shed light on the post-Bayesian community’s ongoing work, its successes, and the challenges that lie ahead once we dare to go beyond orthodox Bayesian procedures.
+
+# Structure
+
+The seminars take place on the second and fourth **Thursday** of each month^[With some exceptions which will be announced well ahead of time in the [schedule](#sec-schedule) and through the mailing list.] at **14:00 London time** on Zoom.
+
+::: {.callout-note}
+## Zoom link
+
+Join the Zoom meeting [here](https://zoom.us).
+Password: "postbayes" with a capital "B".
+:::
+
+Each session includes one talk lasting 45 minutes, with 15 minutes for questions and discussion at the end.
+
+We understand though that this time may not work for everyone, so in order to ensure that everyone can benefit from this seminar series, talks will be recorded and posted on YouTube.
+Links to these recordings will appear in the schedule following the talk.
+
+All the information related to the seminar series will be distributed through a mailing list. 
+To join that mailing list, fill out [this form](https://forms.gle/gqB3LtvJ1ZEb8EWt6).
+
+# Schedule {#sec-schedule}
+
+::: {.callout-note}
+## Tell us what you want (what you really, really want)
+
+If there are any speakers we're missing in our line-up, or any you would like to see again, then submit a suggestion through [this form](https://forms.gle/h5r8VPt2vKBLTRR7A) and we'll see what we can do!
+:::
+
+## September, 2024
+
+### [John Doe](https://en.wikipedia.org/wiki/John_Doe) (12.09.2024)
+
+This talk will explore advancements in post-Bayesian machine learning, focusing on enhancing the robustness of clustering models through novel predictive priors in latent models. By moving beyond traditional Bayesian methods, we introduce dynamic priors that better adapt to complex data structures, improving model stability and interpretability. We’ll present empirical evaluations demonstrating the benefits of these techniques in applications like bioinformatics and NLP. Attendees will gain insights into both the theory and practical implementation of these cutting-edge methods.
+
+[[YouTube](https://youtu.be)]{.recording}
+
+### [Jane Doe](https://en.wikipedia.org/wiki/Jane_Doe_(disambiguation)) (26.09.2024)
+
+This talk will delve into the process of prior elicitation in the predictive space and its role in strengthening the robustness of predictions. We will discuss how carefully constructed priors can significantly improve model performance, particularly in complex predictive tasks. The presentation includes rigorous proofs demonstrating this effect in linear regression models, highlighting the theoretical and practical benefits of our approach. Attendees will leave with a deeper understanding of how prior elicitation can be strategically employed to enhance prediction accuracy and model reliability.
+This talk is based on a recent preprint developed alongside Brown, Bowers, and Beetroot.
+
+[[YouTube](https://youtu.be)]{.recording}
+[[arXiv](https://arxiv.org)]{.arxiv}
+
+# Organisers
+
+- [Yann McLatchie](https://yannmclatchie.github.io/) (University College London)
+- [Jeremias Knoblauch](https://jeremiasknoblauch.github.io/) (University College London)
+- [Edwin Fong](https://edfong.github.io/) (Hong Kong University)
