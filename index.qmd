@@ -1,8 +1,6 @@
 ---
 title: "Post-Bayes seminar series"
 toc: false
-toc-depth: 1
-toc-title: "Contents"
 format:
   html:
     smooth-scroll: true
@@ -11,9 +9,11 @@ format:
 # Mission statement
 
 Bayesian inference has become a popular framework for decision-making given its consistent and flexible handling of uncertainty.
-In this regime, however, the statistician is subject to several surprisingly strong assumptions, which are known to be violated in almost all modern settings.
-As a remedy to the endemic violation of these assumptions in modern machine learning, a family of so-called **post-Bayesian** procedures have been proposed, which preserve Bayesian characteristics^[For example, incorporation of prior knowledge and uncertainty quantification.] while extending beyond Bayes’ rule as an epistemological principle. 
-Among these are a family of [generalisations of the Bayesian update](https://arxiv.org/abs/1904.02063) which replace the statistical model with a loss function, the [Martingale posterior](https://academic.oup.com/jrsssb/article/85/5/1357/7597700?login=false), and many more.
+In this regime, however, the statistician is subject to several surprisingly strong assumptions, which are violated in almost all modern machine learning settings.
+This is in fact well-understood, and has led to a range of methods which aim to retain characteristics of Bayesian uncertainty quantification without the restrictive assumptions that underpin it.
+Collectively, this body of work is sometimes referred to as "generalised Bayes".
+This name, however, does not capture the main appeal of these conceptual frameworks: by unapologetically endorsing posteriors that lie outside the confines of Bayesian epistemology, they are intrinsically **post-Bayesian**. 
+This is not a minor difference in semantics, but a major shift in outlook.
 
 This seminar series aims to shed light on the post-Bayesian community’s ongoing work, its successes, and the challenges that lie ahead once we dare to go beyond orthodox Bayesian procedures.
 
@@ -30,7 +30,7 @@ Password: "postbayes" with a capital "B".
 
 Each session includes one talk lasting 45 minutes, with 15 minutes for questions and discussion at the end.
 
-We understand though that this time may not work for everyone, so in order to ensure that everyone can benefit from this seminar series, talks will be recorded and posted on YouTube.
+We understand that this time may not work for everyone, so in order to ensure that everyone can benefit from this seminar series, talks will be recorded and posted on YouTube.
 Links to these recordings will appear in the schedule following the talk.
 
 All the information related to the seminar series will be distributed through a mailing list. 
