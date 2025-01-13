@@ -19,49 +19,64 @@ This seminar series aims to shed light on the post-Bayesian community’s ongoin
 
 # Structure
 
-The seminars take place on the second and fourth **Thursday** of each month^[With some exceptions which will be announced well ahead of time in the [schedule](#sec-schedule) and through the mailing list.] at **14:00 London time** on Zoom.
+The seminar will run fortnightly from the end of January onwards.
+The first iteration of the series will be broken down into three 'chapters' consisting of between 4-6 talks in each chapter. 
+Each chapter will focus on a different set of post-Bayesian ideas: **generalised Bayes** (led by Jeremias Knoblauch), predictive resampling-based ideas like **Martingale posteriors** (led by Edwin Fong), and **PAC-Bayes** (led by Pierre Alquier). 
+To make this useful for the entire community, the talks in each chapter will seek to cover some key aspects of literature conducted under that chapter.
+
+The seminars take place on the second and fourth **Tuesday** of each month^[With some exceptions which will be announced well ahead of time in the [schedule](#sec-schedule) and through the mailing list.] at either 9am-10am GMT or 2pm-3pm GMT depending on speaker availability, to be announced closer to the date.
 
 ::: {.callout-note}
 ## Zoom link
 
 Join the Zoom meeting [here](https://zoom.us).
-Password: "postbayes" with a capital "B".
+Password: "postbayes" but with a capital "B".
 :::
 
-Each session includes one talk lasting 45 minutes, with 15 minutes for questions and discussion at the end.
-
-We understand that this time may not work for everyone, so in order to ensure that everyone can benefit from this seminar series, talks will be recorded and posted on YouTube.
+Talks will last 45-50 minutes, with 10-15 minutes for discussion. 
+We will record all talks, and upload them to YouTube.
 Links to these recordings will appear in the schedule following the talk.
 
 All the information related to the seminar series will be distributed through a mailing list. 
-To join that mailing list, fill out [this form](https://forms.gle/gqB3LtvJ1ZEb8EWt6).
+To join that mailing list, click [this link](https://outlook.office365.com/owa/postbayes@live.ucl.ac.uk/groupsubscription.ashx?action=join&source=Exchange&guid=dfa1e11f-e2a1-4167-b0a8-2b0e15984a3f).
 
 # Schedule {#sec-schedule}
 
 ::: {.callout-note}
 ## Tell us what you want (what you really, really want)
 
-If there are any speakers we're missing in our line-up, or any you would like to see again, then submit a suggestion through [this form](https://forms.gle/h5r8VPt2vKBLTRR7A) and we'll see what we can do!
+To let us know what chapters you would like to see in the future, who you would like to see lead them, or who you would like to hear talk, submit a suggestion through [this form](https://forms.gle/h5r8VPt2vKBLTRR7A) and we'll see what we can do!
 :::
 
-## September, 2024
+## Chapter 1: generalised Bayes
 
-### [John Doe](https://en.wikipedia.org/wiki/John_Doe) (12.09.2024)
+### Introduction and overview: [Jeremias Knoblauch](https://jeremiasknoblauch.github.io/) (28.01.2024)
 
-This talk will explore advancements in post-Bayesian machine learning, focusing on enhancing the robustness of clustering models through novel predictive priors in latent models. By moving beyond traditional Bayesian methods, we introduce dynamic priors that better adapt to complex data structures, improving model stability and interpretability. We’ll present empirical evaluations demonstrating the benefits of these techniques in applications like bioinformatics and NLP. Attendees will gain insights into both the theory and practical implementation of these cutting-edge methods.
+TBD.
 
-[[YouTube](https://youtu.be)]{.recording}
+### Theoretical foundations: TBD
 
-### [Jane Doe](https://en.wikipedia.org/wiki/Jane_Doe_(disambiguation)) (26.09.2024)
+TBD.
 
-This talk will delve into the process of prior elicitation in the predictive space and its role in strengthening the robustness of predictions. We will discuss how carefully constructed priors can significantly improve model performance, particularly in complex predictive tasks. The presentation includes rigorous proofs demonstrating this effect in linear regression models, highlighting the theoretical and practical benefits of our approach. Attendees will leave with a deeper understanding of how prior elicitation can be strategically employed to enhance prediction accuracy and model reliability.
-This talk is based on a recent preprint developed alongside Brown, Bowers, and Beetroot.
+### Learning rate selection: TBD
 
-[[YouTube](https://youtu.be)]{.recording}
-[[arXiv](https://arxiv.org)]{.arxiv}
+TBD.
+
+### Generalised Bayes for computation: TBD
+
+TBD.
+
+## Chapter 2: Martingale posteriors
+
+TBD.
+
+## Chapter 3: PAC-Bayes
+
+TBD.
 
 # Organisers
 
 - [Yann McLatchie](https://yannmclatchie.github.io/) (University College London)
+- [Matias Altamirano](https://maltamiranomontero.github.io/) (University College London)
 - [Jeremias Knoblauch](https://jeremiasknoblauch.github.io/) (University College London)
 - [Edwin Fong](https://edfong.github.io/) (Hong Kong University)
