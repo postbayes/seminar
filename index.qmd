@@ -50,19 +50,19 @@ To let us know what chapters you would like to see in the future, who you would 
 
 ## Chapter 1: generalised Bayes
 
-### Introduction and overview: [Jeremias Knoblauch](https://jeremiasknoblauch.github.io/) (28.01.2024)
+### Introduction and overview: [Jeremias Knoblauch](https://jeremiasknoblauch.github.io/) (11.02.2024)
 
 TBD.
 
-### Theoretical foundations: TBD
+### Theoretical foundations: [David Frazier](https://dtfrazier.netlify.app/) (25.02.2025)
 
 TBD.
 
-### Learning rate selection: TBD
+### Learning rate selection & the power posterior: [Ryan Martin](https://www4.stat.ncsu.edu/~rgmarti3//) (11.03.2025)
 
 TBD.
 
-### Generalised Bayes for computation: TBD
+### Generalised Bayes for computation: [Chris Oates](https://oates.work/) (25.03.2025)
 
 TBD.
 
@@ -79,4 +79,3 @@ TBD.
 - [Yann McLatchie](https://yannmclatchie.github.io/) (University College London)
 - [Matias Altamirano](https://maltamiranomontero.github.io/) (University College London)
 - [Jeremias Knoblauch](https://jeremiasknoblauch.github.io/) (University College London)
-- [Edwin Fong](https://edfong.github.io/) (Hong Kong University)
