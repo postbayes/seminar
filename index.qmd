@@ -21,16 +21,15 @@ This seminar series aims to shed light on the post-Bayesian community’s ongoin
 
 The seminar will run fortnightly from the end of January onwards.
 The first iteration of the series will be broken down into three 'chapters' consisting of between 4-6 talks in each chapter. 
-Each chapter will focus on a different set of post-Bayesian ideas: **generalised Bayes** (led by Jeremias Knoblauch), predictive resampling-based ideas like **Martingale posteriors** (led by Edwin Fong), and **PAC-Bayes** (led by Pierre Alquier). 
+Each chapter will focus on a different set of post-Bayesian ideas: **generalised Bayes** (led by [Jeremias Knoblauch](https://jeremiasknoblauch.github.io/)), predictive resampling-based ideas like **Martingale posteriors** (led by [Edwin Fong](https://edfong.github.io/)), and **PAC-Bayes** (led by [Pierre Alquier](https://pierrealquier.github.io/index.html)). 
 To make this useful for the entire community, the talks in each chapter will seek to cover some key aspects of literature conducted under that chapter.
 
-The seminars take place on the second and fourth **Tuesday** of each month^[With some exceptions which will be announced well ahead of time in the [schedule](#sec-schedule) and through the mailing list.] at either 9am-10am GMT or 2pm-3pm GMT depending on speaker availability, to be announced closer to the date.
+The seminars take place on the second and fourth **Tuesday** of each month^[With some exceptions which will be announced well ahead of [schedule](#sec-schedule) and through the mailing list.] at either 9am-10am GMT or 2pm-3pm GMT depending on speaker availability, to be announced closer to the date.
 
 ::: {.callout-note}
 ## Zoom link
 
 Join the Zoom meeting [here](https://zoom.us).
-Password: "postbayes" but with a capital "B".
 :::
 
 Talks will last 45-50 minutes, with 10-15 minutes for discussion. 
@@ -38,7 +37,7 @@ We will record all talks, and upload them to YouTube.
 Links to these recordings will appear in the schedule following the talk.
 
 All the information related to the seminar series will be distributed through a mailing list. 
-To join that mailing list, click [this link](https://outlook.office365.com/owa/postbayes@live.ucl.ac.uk/groupsubscription.ashx?action=join&source=Exchange&guid=dfa1e11f-e2a1-4167-b0a8-2b0e15984a3f).
+To join that mailing list, click [this link](https://www.jiscmail.ac.uk/cgi-bin/wa-jisc.exe?SUBED1=POSTBAYES).
 
 # Schedule {#sec-schedule}
 
@@ -76,6 +75,8 @@ TBD.
 
 # Organisers
 
+- [Pierre Alquier](https://pierrealquier.github.io/index.html) (ESSEC Business School - ASIA PACIFIC)
+- [Jeremias Knoblauch](https://jeremiasknoblauch.github.io/) (University College London)
+- [Edwin Fong](https://edfong.github.io/) (University of Hong Kong)
 - [Yann McLatchie](https://yannmclatchie.github.io/) (University College London)
 - [Matias Altamirano](https://maltamiranomontero.github.io/) (University College London)
-- [Jeremias Knoblauch](https://jeremiasknoblauch.github.io/) (University College London)
