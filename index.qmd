@@ -38,7 +38,7 @@ We will record all talks, and upload them to YouTube.
 Links to these recordings will appear in the schedule following the talk.
 
 All the information related to the seminar series will be distributed through a mailing list. 
-To join that mailing list, click [this link](https://outlook.office365.com/owa/postbayes@live.ucl.ac.uk/groupsubscription.ashx?action=join&source=Exchange&guid=dfa1e11f-e2a1-4167-b0a8-2b0e15984a3f).
+To join that mailing list, click [this link](https://www.jiscmail.ac.uk/cgi-bin/webadmin?SUBED1=POSTBAYES&A=1).
 
 # Schedule {#sec-schedule}
 
