@@ -25,6 +25,7 @@ Each chapter will focus on a different set of post-Bayesian ideas: **generalised
 To make this useful for the entire community, the talks in each chapter will seek to cover some key aspects of literature conducted under that chapter.
 
 The seminars take place on the second and fourth **Tuesday** of each month^[With some exceptions which will be announced well ahead of [schedule](#sec-schedule) and through the mailing list.] at either 9am-10am GMT or 2pm-3pm GMT depending on speaker availability, to be announced closer to the date.
+You can keep up to date by subscribing to our [Google calendar](https://tinyurl.com/postBayesCalendar).
 
 ::: {.callout-note}
 ## Zoom link
@@ -51,17 +52,21 @@ To let us know what chapters you would like to see in the future, who you would 
 
 ### Introduction and overview: [Jeremias Knoblauch](https://jeremiasknoblauch.github.io/) (11.02.2024)
 
-TBD.
+This talk will serve two purposes. In the first half, I will explain why this seminar series exists, and how it is organised. In particular, I will give some of the reasons why research in statistics and machine learning has increasingly ventured beyond vanilla Bayesian procedures, and where this has led us this far, focusing particularly on generalised Bayes, PAC-Bayes, and resampling-based strategies. I will briefly characterise some of the most fruitful approaches in this area and relate them to the structure of this seminar series. In the second half of the talk, I will zoom in on what will be covered in the first 6 talks of this series --- generalised Bayesian inference. I will cover the basics of these ideas, and explain some of the most important directions in the field. I will link these directions to the seminars that will be given in the subsequent weeks.
 
 ### Theoretical foundations: [David Frazier](https://dtfrazier.netlify.app/) (25.02.2025)
 
 TBD.
 
-### Learning rate selection & the power posterior: [Ryan Martin](https://www4.stat.ncsu.edu/~rgmarti3//) (11.03.2025)
+### Learning rate selection and the power posterior: [Ryan Martin](https://www4.stat.ncsu.edu/~rgmarti3//) (11.03.2025)
 
 TBD.
 
 ### Generalised Bayes for computation: [Chris Oates](https://oates.work/) (25.03.2025)
+
+TBD.
+
+### Coarsened Bayes and applications to biomedical sciences: [David Dunson](https://www.daviddunson.com/) (08.04.2025)
 
 TBD.
 
