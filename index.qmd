@@ -50,7 +50,7 @@ To let us know what chapters you would like to see in the future, who you would 
 
 ## Chapter 1: generalised Bayes
 
-### Introduction and overview: [Jeremias Knoblauch](https://jeremiasknoblauch.github.io/) (11.02.2024)
+### Introduction and overview: [Jeremias Knoblauch](https://jeremiasknoblauch.github.io/) (14:00 GMT @ 11.02.2024)
 
 This talk will serve two purposes. In the first half, I will explain why this seminar series exists, and how it is organised. In particular, I will give some of the reasons why research in statistics and machine learning has increasingly ventured beyond vanilla Bayesian procedures, and where this has led us this far, focusing particularly on generalised Bayes, PAC-Bayes, and resampling-based strategies. I will briefly characterise some of the most fruitful approaches in this area and relate them to the structure of this seminar series. In the second half of the talk, I will zoom in on what will be covered in the first 6 talks of this series --- generalised Bayesian inference. I will cover the basics of these ideas, and explain some of the most important directions in the field. I will link these directions to the seminars that will be given in the subsequent weeks.
 
