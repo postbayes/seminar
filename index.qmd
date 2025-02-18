@@ -59,7 +59,7 @@ This talk will serve two purposes. In the first half, I will explain why this se
 
 ### Theoretical foundations: [David Frazier](https://dtfrazier.netlify.app/) (09:00 GMT @ 25.02.2025)
 
-TBD.
+Post-Bayesian belief updates, such as generalized Bayes and Gibbs posteriors, can deliver very different belief updates to those obtained via classical Bayesian beliefs. To ensure that such belief updates are useful in practice, we must therefore understand the behavior of these beliefs from a statistical standpoint. Answering questions such as, how reliable are the inferences obtained from post-Bayesian beliefs, or how do posterior predictives based on these beliefs perform, are integral for the adoption of these methods into the larger toolkit of machine learning and statistics. In this talk, I give a broad overview of the theoretical landscape for generalized and Gibbs posteriors, including what questions have been answered and what questions remain. I also give examples of how these theoretical developments can be leveraged to answer interesting questions regarding the choice of learning rate for predictive accuracy, and the impact on inferences when loss functions must be estimated.
 
 ### Learning rate selection and the power posterior: [Ryan Martin](https://www4.stat.ncsu.edu/~rgmarti3//) (14:00 GMT @ 11.03.2025)
 
