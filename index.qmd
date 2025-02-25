@@ -17,6 +17,12 @@ This is not a minor difference in semantics, but a major shift in outlook.
 
 This seminar series aims to shed light on the post-Bayesian community’s ongoing work, its successes, and the challenges that lie ahead once we dare to go beyond orthodox Bayesian procedures.
 
+::: {.callout-note}
+## Workshop @ UCL on post-Bayesian methods 15-16th May 2025!
+
+Registration is open, and now accepting submissions! Key dates and further information available [here](https://postbayes.github.io/workshop2025/).
+:::
+
 # Structure
 
 The seminar will run fortnightly from the end of January onwards.
