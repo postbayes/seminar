@@ -72,7 +72,10 @@ Post-Bayesian belief updates, such as generalized Bayes and Gibbs posteriors, ca
 
 ### Learning rate selection and the power posterior: [Ryan Martin](https://www4.stat.ncsu.edu/~rgmarti3//) (14:00 GMT @ 11.03.2025)
 
-Bayesian inference generally works well when the model is well-specified. But model mis- or under-specification is the norm rather than the exception, so there's good reason to consider other posterior constructions, which is precisely the motivation for this seminar series. In this installment, I'll focus on Gibbs posteriors and, more specifically, on aspects pertaining to Gibbs posteriors' so-called learning rate parameter. This is a challenging problem in various respects---philosophically, theoretically, and computationally---and I aim to say a bit about all of these aspects in my presentation. Time permitting, I'll also talk briefly about situations beyond Gibbs posterior inference where a learning rate choice is involved.  
+Bayesian inference generally works well when the model is well-specified. But model mis- or under-specification is the norm rather than the exception, so there's good reason to consider other posterior constructions, which is precisely the motivation for this seminar series. In this installment, I'll focus on Gibbs posteriors and, more specifically, on aspects pertaining to Gibbs posteriors' so-called learning rate parameter. This is a challenging problem in various respects---philosophically, theoretically, and computationally---and I aim to say a bit about all of these aspects in my presentation. Time permitting, I'll also talk briefly about situations beyond Gibbs posterior inference where a learning rate choice is involved.
+
+[[Slides](slides/ryan-martin.pdf)]{.slides}
+[[YouTube](https://youtu.be/T_EyV0YI8QE)]{.recording}
 
 ### Generalised Bayes for computation: [Chris Oates](https://oates.work/) (25.03.2025)
 
