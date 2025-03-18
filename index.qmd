@@ -77,7 +77,7 @@ Bayesian inference generally works well when the model is well-specified. But mo
 [[Slides](slides/ryan-martin.pdf)]{.slides}
 [[YouTube](https://youtu.be/T_EyV0YI8QE)]{.recording}
 
-### Prediction-centric approaches: [Chris Oates](https://oates.work/) (14:00 GMT @ 25.03.2025)
+### Prediction-centric approaches: [Chris Oates](https://oates.work/) (09:00 GMT @ 25.03.2025)
 
 Generalised Bayesian methodologies have been proposed for inference with misspecified models, but these are typically associated with vanishing parameter uncertainty as more data are observed. In the deterministic modelling context, this can have the undesirable consequence that predictions become certain, while being incorrect.  Taking this observation as a starting point, we will critically review some prediction-centric alternatives to generalised Bayes.
 
