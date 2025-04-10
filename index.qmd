@@ -88,6 +88,9 @@ Generalised Bayesian methodologies have been proposed for inference with misspec
 
 The standard approach to Bayesian inference is based on the assumption that the distribution of the data belongs to the chosen model class. However, even a small violation of this assumption can have a large impact on the outcome of a Bayesian procedure. We introduce a simple, coherent approach to Bayesian inference that improves robustness to perturbations from the model: rather than condition on the data exactly, one conditions on a neighborhood of the empirical distribution. When using neighborhoods based on relative entropy estimates, the resulting "coarsened" posterior can be approximated by simply tempering the likelihood—that is, by raising it to a fractional power. Thus, inference is often easily implemented with standard methods, and one can even obtain analytical solutions when using conjugate priors. Some theoretical properties are derived, and we illustrate the approach with real and simulated data, using mixture models, autoregressive models of unknown order, and variable selection in linear regression.
 
+[[Slides](slides/david-dunson.pdf)]{.slides}
+[[YouTube](https://youtu.be/bCLTpLpd798)]{.recording}
+
 ## Chapter 2: Martingale posteriors
 
 TBD.
