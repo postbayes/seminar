@@ -95,7 +95,25 @@ The standard approach to Bayesian inference is based on the assumption that the 
 
 We review the historical motivation in the development of general Bayesian updating, leading to Martingale Posteriors, and the central role played by the Bayesian Bootstrap. The talk will focus on fundamental concepts in uncertainty quantification rather than mathematical results, and the notion of targeted learning for estimands.  
 
-## Chapter 2: Martingale posteriors
+## Chapter 2: Predictive Bayes
+
+### Introduction and overview: [Edwin Fong](https://edfong.github.io/) (09:00 GMT @ 06.05.2025)
+
+TBD.
+
+### Theoretical Foundations of Predictive Bayes: [Sandra Fortini](https://dec.unibocconi.eu/people/sandra-fortini) (14:00 GMT @ 20.05.2025)
+
+TBD.
+
+### Predictive Model Selection: [Vik Shirvaikar](https://vshirvaikar.github.io/) (03.06.2025)
+
+TBD.
+
+### Recursive Methods for Predictive Bayes: [Lorenzo Capello](https://lorenzocapp.github.io/) (01.07.2025)
+
+TBD.
+
+### Applications of Post-Bayesian Methods: [Harita Dellaporta](https://haritadell.github.io/) and [Matias Altamirano](https://maltamiranomontero.github.io/) (05.07.2025)
 
 TBD.
 
