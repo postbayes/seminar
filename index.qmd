@@ -93,7 +93,10 @@ The standard approach to Bayesian inference is based on the assumption that the 
 
 ### From generalised Bayes to Martingale posteriors: [Chris Holmes](https://www.stats.ox.ac.uk/people/chris-holmes) (13:00 GMT @ 22.04.2025)
 
-We review the historical motivation in the development of general Bayesian updating, leading to Martingale Posteriors, and the central role played by the Bayesian Bootstrap. The talk will focus on fundamental concepts in uncertainty quantification rather than mathematical results, and the notion of targeted learning for estimands.  
+We review the historical motivation in the development of general Bayesian updating, leading to Martingale Posteriors, and the central role played by the Bayesian Bootstrap. The talk will focus on fundamental concepts in uncertainty quantification rather than mathematical results, and the notion of targeted learning for estimands.
+
+[[Slides](slides/chris-holmes.pdf)]{.slides}
+[[YouTube](https://youtu.be/fXAyzjh4_Wk)]{.recording}
 
 ## Chapter 2: Predictive Bayes
 
@@ -101,25 +104,29 @@ We review the historical motivation in the development of general Bayesian updat
 
 TBD.
 
-### Theoretical Foundations of Predictive Bayes: [Sandra Fortini](https://dec.unibocconi.eu/people/sandra-fortini) (14:00 GMT @ 20.05.2025)
+### Theoretical foundations of predictive Bayes: [Sandra Fortini](https://dec.unibocconi.eu/people/sandra-fortini) (14:00 GMT @ 20.05.2025)
 
 TBD.
 
-### Predictive Model Selection: [Vik Shirvaikar](https://vshirvaikar.github.io/) (03.06.2025)
+### Predictive model selection: [Vik Shirvaikar](https://vshirvaikar.github.io/) (03.06.2025)
 
 TBD.
 
-### Recursive Methods for Predictive Bayes: [Lorenzo Capello](https://lorenzocapp.github.io/) (01.07.2025)
+### Recursive methods for predictive Bayes: [Lorenzo Capello](https://lorenzocapp.github.io/) (01.07.2025)
 
 TBD.
 
-### Applications of Post-Bayesian Methods: [Harita Dellaporta](https://haritadell.github.io/) + [Matias Altamirano](https://maltamiranomontero.github.io/) (05.07.2025)
+### Applications of post-Bayesian methods: [Harita Dellaporta](https://haritadell.github.io/) + [Matias Altamirano](https://maltamiranomontero.github.io/) (05.07.2025)
 
 TBD.
 
 ## Chapter 3: PAC-Bayes
 
+### Introduction and overview: [Pierre Alquier](https://pierrealquier.github.io/) (14:00 GMT @ 23.09.2025)
+
 TBD.
+
+### Recursive PAC Bayes: [Evgeni Seldin](https://sites.google.com/site/yevgenyseldin/) (14:00 GMT @ 07.10.2025)
 
 # Organisers
 
