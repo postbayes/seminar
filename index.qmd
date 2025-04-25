@@ -102,11 +102,11 @@ We review the historical motivation in the development of general Bayesian updat
 
 ### Introduction and overview: [Edwin Fong](https://edfong.github.io/) (09:00 GMT @ 06.05.2025)
 
-TBD.
+Chapter 2 of the seminar series explores the predictive view of Bayesian inference. The revitalized focus on prediction as the cornerstone of Bayesian inference shifts attention away from the traditional likelihood-prior framework, giving rise to novel prediction-centric methods such as quasi-Bayesian approaches and the martingale posterior. This talk will provide an overview and a brief history of the key ideas underpinning the predictive Bayesian approach, setting the stage for the subsequent four talks that will delve deeper into its specifics.
 
 ### Theoretical foundations of predictive Bayes: [Sandra Fortini](https://dec.unibocconi.eu/people/sandra-fortini) (14:00 GMT @ 20.05.2025)
 
-TBD.
+There is currently a renewed interest in the Bayesian predictive approach to statistics. The talk offers a review on foundational concepts and focuses on predictive modelling, which by directly reasoning on prediction, bypasses inferential models or may characterize them.   The underlying concept is that Bayesian predictive rules formalize through conditional probability how we learn on future events given the available information. This concept has implications in any statistical problem and in inference, from classic contexts to less explored challenges, such as providing Bayesian uncertainty quantification to predictive algorithms in data science.
 
 ### Predictive model selection: [Vik Shirvaikar](https://vshirvaikar.github.io/) (03.06.2025)
 
@@ -127,6 +127,8 @@ TBD.
 TBD.
 
 ### Recursive PAC Bayes: [Evgeni Seldin](https://sites.google.com/site/yevgenyseldin/) (14:00 GMT @ 07.10.2025)
+
+TBD.
 
 # Organisers
 
