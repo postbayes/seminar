@@ -108,15 +108,15 @@ Chapter 2 of the seminar series explores the predictive view of Bayesian inferen
 
 There is currently a renewed interest in the Bayesian predictive approach to statistics. The talk offers a review on foundational concepts and focuses on predictive modelling, which by directly reasoning on prediction, bypasses inferential models or may characterize them.   The underlying concept is that Bayesian predictive rules formalize through conditional probability how we learn on future events given the available information. This concept has implications in any statistical problem and in inference, from classic contexts to less explored challenges, such as providing Bayesian uncertainty quantification to predictive algorithms in data science.
 
-### Predictive model selection: [Vik Shirvaikar](https://vshirvaikar.github.io/) (03.06.2025)
+### Predictive model selection and uncertainty : [Vik Shirvaikar](https://vshirvaikar.github.io/) (09:00 GMT @ 03.06.2025)
 
-TBD.
+How can the predictive view of Bayesian inference be extended to model selection and uncertainty? In this talk, we'll discuss the prequential argument and proper scoring rules as foundational concepts in predictive Bayesian model comparison. We'll then consider a prediction-driven framework for model uncertainty, where the key task of resampling the missing data is conducted through the sequential comparison of candidate models. This suggests an alternative approach to classical questions, such as density estimation and hypothesis testing, which sidesteps certain issues with standard methods such as the Bayes factor.
 
 ### Recursive methods for predictive Bayes: [Lorenzo Capello](https://lorenzocapp.github.io/) (01.07.2025)
 
 TBD.
 
-### Applications of post-Bayesian methods: [Harita Dellaporta](https://haritadell.github.io/) + [Matias Altamirano](https://maltamiranomontero.github.io/) (05.07.2025)
+### Applications of post-Bayesian methods: [Harita Dellaporta](https://haritadell.github.io/) + [Matias Altamirano](https://maltamiranomontero.github.io/) (15.07.2025)
 
 TBD.
 
