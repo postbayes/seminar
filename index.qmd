@@ -102,7 +102,10 @@ We review the historical motivation in the development of general Bayesian updat
 
 ### Introduction and overview: [Edwin Fong](https://edfong.github.io/) (09:00 GMT @ 06.05.2025)
 
-Chapter 2 of the seminar series explores the predictive view of Bayesian inference. The revitalized focus on prediction as the cornerstone of Bayesian inference shifts attention away from the traditional likelihood-prior framework, giving rise to novel prediction-centric methods such as quasi-Bayesian approaches and the martingale posterior. This talk will provide an overview and a brief history of the key ideas underpinning the predictive Bayesian approach, setting the stage for the subsequent four talks that will delve deeper into its specifics.
+Chapter 2 of the seminar series explores the predictive view of Bayesian inference. The revitalized focus on prediction as the cornerstone of Bayesian inference shifts attention away from the traditional likelihood-prior framework, giving rise to novel prediction-centric methods such as quasi-Bayesian approaches and the martingale posterior. This talk will provide an overview and a brief history of the key ideas underpinning the predictive Bayesian approach, setting the stage for the subsequent four talks that will delve deeper into its specifics.
+
+[[Slides](slides/edwin-fong.pdf)]{.slides}
+[[YouTube](https://youtu.be/wdwxQpq65QM)]{.recording}
 
 ### Theoretical foundations of predictive Bayes: [Sandra Fortini](https://dec.unibocconi.eu/people/sandra-fortini) (14:00 GMT @ 20.05.2025)
 
