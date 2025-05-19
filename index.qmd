@@ -115,9 +115,9 @@ There is currently a renewed interest in the Bayesian predictive approach to sta
 
 How can the predictive view of Bayesian inference be extended to model selection and uncertainty? In this talk, we'll discuss the prequential argument and proper scoring rules as foundational concepts in predictive Bayesian model comparison. We'll then consider a prediction-driven framework for model uncertainty, where the key task of resampling the missing data is conducted through the sequential comparison of candidate models. This suggests an alternative approach to classical questions, such as density estimation and hypothesis testing, which sidesteps certain issues with standard methods such as the Bayes factor.
 
-### Recursive methods for predictive Bayes: [Lorenzo Capello](https://lorenzocapp.github.io/) (01.07.2025)
+### Recursive methods for predictive Bayes: [Lorenzo Capello](https://lorenzocapp.github.io/) (15:00 GMT @ 01.07.2025)
 
-TBD.
+Predictive Bayes is driving the development of new recursive methods for use in predictive resampling. In the literature, we observe both the adaptation of existing algorithms and the creation of entirely new ones tailored to this purpose. In this talk, we will explore both perspectives. First, we will review the derivation of several well-established algorithms and examine how they can inspire new proposal mechanisms. Next, we will consider the reverse situation: starting with a preferred algorithm and evaluating its suitability within this emerging framework.
 
 ### Applications of post-Bayesian methods: [Harita Dellaporta](https://haritadell.github.io/) + [Matias Altamirano](https://maltamiranomontero.github.io/) (15.07.2025)
 
