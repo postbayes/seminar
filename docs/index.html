@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.433">
+<meta name="generator" content="quarto-1.5.56">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>seminar - Post-Bayes seminar series</title>
+<title>Post-Bayes seminar series – seminar</title>
 <style>
 html {
   color: #1a1a1a;
@@ -61,6 +61,10 @@ a:visited {
   color: #1a1a1a;
 }
 img {
+  max-width: 100%;
+}
+svg {
+  height; auto;
   max-width: 100%;
 }
 h1, h2, h3, h4, h5, h6 {
@@ -200,15 +204,10 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
+
 <h1 id="mission-statement">Mission statement</h1>
 <p>Bayesian inference has become a popular framework for decision-making given its consistent and flexible handling of uncertainty. In this regime, however, the statistician is subject to several surprisingly strong assumptions, which are violated in almost all modern machine learning settings. This is in fact well-understood, and has led to a range of methods which aim to retain characteristics of Bayesian uncertainty quantification without the restrictive assumptions that underpin it. Collectively, this body of work is sometimes referred to as “generalised Bayes”. This name, however, does not capture the main appeal of these conceptual frameworks: by unapologetically endorsing posteriors that lie outside the confines of Bayesian epistemology, they are intrinsically <strong>post-Bayesian</strong>. This is not a minor difference in semantics, but a major shift in outlook.</p>
 <p>This seminar series aims to shed light on the post-Bayesian community’s ongoing work, its successes, and the challenges that lie ahead once we dare to go beyond orthodox Bayesian procedures.</p>
-<div>
-<blockquote>
-<p><strong>Workshop @ UCL on post-Bayesian methods 15-16th May 2025!</strong></p>
-<p>Registration is open, and now accepting submissions! Key dates and further information available <a href="https://postbayes.github.io/workshop2025/">here</a>.</p>
-</blockquote>
-</div>
 <h1 id="structure">Structure</h1>
 <p>The seminar will run fortnightly from the end of January onwards. The first iteration of the series will be broken down into three ‘chapters’ consisting of between 4-6 talks in each chapter. Each chapter will focus on a different set of post-Bayesian ideas: <strong>generalised Bayes</strong> (led by <a href="https://jeremiasknoblauch.github.io/">Jeremias Knoblauch</a>), predictive resampling-based ideas like <strong>Martingale posteriors</strong> (led by <a href="https://edfong.github.io/">Edwin Fong</a>), and <strong>PAC-Bayes</strong> (led by <a href="https://pierrealquier.github.io/index.html">Pierre Alquier</a>). To make this useful for the entire community, the talks in each chapter will seek to cover some key aspects of literature conducted under that chapter.</p>
 <p>The seminars take place on the second and fourth <strong>Tuesday</strong> of each month<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> at either 9am-10am GMT or 2pm-3pm GMT depending on speaker availability, to be announced closer to the date. You can keep up to date by subscribing to our <a href="https://tinyurl.com/postBayesCalendar">Google calendar</a>.</p>
@@ -227,7 +226,34 @@ ul.task-list li input[type="checkbox"] {
 <p>To let us know what chapters you would like to see in the future, who you would like to see lead them, or who you would like to hear talk, submit a suggestion through <a href="https://forms.gle/h5r8VPt2vKBLTRR7A">this form</a> and we’ll see what we can do!</p>
 </blockquote>
 </div>
-<h2 id="chapter-1-generalised-bayes" class="anchored">Chapter 1: generalised Bayes</h2>
+<p>Please select one of the chapters below to see their schedule, talk titles and abstracts, and links to recordings and slides.</p>
+<script>
+    function showContent(clickedElement) {
+        // Hide all content divs
+        var allContents = document.getElementsByClassName('content');
+        for (var i = 0; i < allContents.length; i++) {
+            allContents[i].style.display = 'none';
+        }
+
+        // Deactivate all nav options
+        var allNavOptions = document.getElementsByClassName('nav-option');
+        for (var i = 0; i < allNavOptions.length; i++) {
+            allNavOptions[i].classList.remove('active');
+        }
+
+        // Show the selected content
+        var option = clickedElement.getAttribute('data-option');
+        document.getElementById(option + 'Content').style.display = 'block';
+
+        // Activate the selected nav option
+        clickedElement.classList.add('active');
+    }
+</script>
+
+<div class="navbar">
+<p><span class="nav-option" data-option="chapter1" onclick="showContent(this)"><strong>Chapter 1: generalised Bayes</strong></span> <span class="nav-option" data-option="chapter2" onclick="showContent(this)"><strong>Chapter 2: predictive Bayes</strong></span> <span class="nav-option" data-option="chapter3" onclick="showContent(this)"><strong>Chapter 3: PAC Bayes</strong></span></p>
+</div>
+<div id="chapter1Content" class="content">
 <h3 id="introduction-and-overview-jeremias-knoblauch-1400-gmt-11.02.2025" class="anchored">Introduction and overview: <a href="https://jeremiasknoblauch.github.io/">Jeremias Knoblauch</a> (14:00 GMT @ 11.02.2025)</h3>
 <p>This talk will serve two purposes. In the first half, I will explain why this seminar series exists, and how it is organised. In particular, I will give some of the reasons why research in statistics and machine learning has increasingly ventured beyond vanilla Bayesian procedures, and where this has led us this far, focusing particularly on generalised Bayes, PAC-Bayes, and resampling-based strategies. I will briefly characterise some of the most fruitful approaches in this area and relate them to the structure of this seminar series. In the second half of the talk, I will zoom in on what will be covered in the first 6 talks of this series — generalised Bayesian inference. I will cover the basics of these ideas, and explain some of the most important directions in the field. I will link these directions to the seminars that will be given in the subsequent weeks.</p>
 <p><span class="slides"><a href="slides/jeremias-knoblauch.pdf">Slides</a></span> <span class="recording"><a href="https://www.youtube.com/watch?v=q32kSUQZOc0">YouTube</a></span></p>
@@ -246,23 +272,27 @@ ul.task-list li input[type="checkbox"] {
 <h3 id="from-generalised-bayes-to-martingale-posteriors-chris-holmes-1300-gmt-22.04.2025" class="anchored">From generalised Bayes to Martingale posteriors: <a href="https://www.stats.ox.ac.uk/people/chris-holmes">Chris Holmes</a> (13:00 GMT @ 22.04.2025)</h3>
 <p>We review the historical motivation in the development of general Bayesian updating, leading to Martingale Posteriors, and the central role played by the Bayesian Bootstrap. The talk will focus on fundamental concepts in uncertainty quantification rather than mathematical results, and the notion of targeted learning for estimands.</p>
 <p><span class="slides"><a href="slides/chris-holmes.pdf">Slides</a></span> <span class="recording"><a href="https://youtu.be/fXAyzjh4_Wk">YouTube</a></span></p>
-<h2 id="chapter-2-predictive-bayes" class="anchored">Chapter 2: Predictive Bayes</h2>
+</div>
+<div id="chapter2Content" class="content">
 <h3 id="introduction-and-overview-edwin-fong-0900-gmt-06.05.2025" class="anchored">Introduction and overview: <a href="https://edfong.github.io/">Edwin Fong</a> (09:00 GMT @ 06.05.2025)</h3>
 <p>Chapter 2 of the seminar series explores the predictive view of Bayesian inference. The revitalized focus on prediction as the cornerstone of Bayesian inference shifts attention away from the traditional likelihood-prior framework, giving rise to novel prediction-centric methods such as quasi-Bayesian approaches and the martingale posterior. This talk will provide an overview and a brief history of the key ideas underpinning the predictive Bayesian approach,&nbsp;setting the stage for the subsequent four talks that will delve deeper into its specifics.</p>
 <p><span class="slides"><a href="slides/edwin-fong.pdf">Slides</a></span> <span class="recording"><a href="https://youtu.be/wdwxQpq65QM">YouTube</a></span></p>
 <h3 id="theoretical-foundations-of-predictive-bayes-sandra-fortini-1400-gmt-20.05.2025" class="anchored">Theoretical foundations of predictive Bayes: <a href="https://dec.unibocconi.eu/people/sandra-fortini">Sandra Fortini</a> (14:00 GMT @ 20.05.2025)</h3>
-<p>There is currently a renewed interest in the Bayesian predictive approach to statistics. The talk offers a review on foundational concepts and focuses on predictive modelling, which by directly reasoning on prediction, bypasses inferential models or may characterize them. &nbsp; The underlying concept is that Bayesian predictive rules formalize through conditional probability how we learn on future events given the available information. This concept has implications in any statistical problem and in inference, from classic contexts to less explored challenges, such as providing Bayesian uncertainty quantification to predictive algorithms in data science.</p>
+<p>There is currently a renewed interest in the Bayesian predictive approach to statistics. The talk offers a review on foundational concepts and focuses on predictive modelling, which by directly reasoning on prediction, bypasses inferential models or may characterize them. The underlying concept is that Bayesian predictive rules formalize through conditional probability how we learn on future events given the available information. This concept has implications in any statistical problem and in inference, from classic contexts to less explored challenges, such as providing Bayesian uncertainty quantification to predictive algorithms in data science.</p>
+<p><span class="slides"><a href="slides/sandra-fortini.pdf">Slides</a></span> <span class="recording"><a href="https://youtu.be/66qTS48OO4A">YouTube</a></span></p>
 <h3 id="predictive-model-selection-and-uncertainty-vik-shirvaikar-0900-gmt-03.06.2025" class="anchored">Predictive model selection and uncertainty : <a href="https://vshirvaikar.github.io/">Vik Shirvaikar</a> (09:00 GMT @ 03.06.2025)</h3>
 <p>How can the predictive view of Bayesian inference be extended to model selection and uncertainty? In this talk, we’ll discuss the prequential argument and proper scoring rules as foundational concepts in predictive Bayesian model comparison. We’ll then consider a prediction-driven framework for model uncertainty, where the key task of resampling the missing data is conducted through the sequential comparison of candidate models. This suggests an alternative approach to classical questions, such as density estimation and hypothesis testing, which sidesteps certain issues with standard methods such as the Bayes factor.</p>
 <h3 id="recursive-methods-for-predictive-bayes-lorenzo-capello-1500-gmt-01.07.2025" class="anchored">Recursive methods for predictive Bayes: <a href="https://lorenzocapp.github.io/">Lorenzo Capello</a> (15:00 GMT @ 01.07.2025)</h3>
 <p>Predictive Bayes is driving the development of new recursive methods for use in predictive resampling. In the literature, we observe both the adaptation of existing algorithms and the creation of entirely new ones tailored to this purpose. In this talk, we will explore both perspectives. First, we will review the derivation of several well-established algorithms and examine how they can inspire new proposal mechanisms. Next, we will consider the reverse situation: starting with a preferred algorithm and evaluating its suitability within this emerging framework.</p>
 <h3 id="applications-of-post-bayesian-methods-harita-dellaporta-matias-altamirano-15.07.2025" class="anchored">Applications of post-Bayesian methods: <a href="https://haritadell.github.io/">Harita Dellaporta</a> + <a href="https://maltamiranomontero.github.io/">Matias Altamirano</a> (15.07.2025)</h3>
 <p>TBD.</p>
-<h2 id="chapter-3-pac-bayes" class="anchored">Chapter 3: PAC-Bayes</h2>
+</div>
+<div id="chapter3Content" class="content">
 <h3 id="introduction-and-overview-pierre-alquier-1400-gmt-23.09.2025" class="anchored">Introduction and overview: <a href="https://pierrealquier.github.io/">Pierre Alquier</a> (14:00 GMT @ 23.09.2025)</h3>
 <p>TBD.</p>
 <h3 id="recursive-pac-bayes-yevgeny-seldin-1400-gmt-07.10.2025" class="anchored">Recursive PAC Bayes: <a href="https://sites.google.com/site/yevgenyseldin/">Yevgeny Seldin</a> (14:00 GMT @ 07.10.2025)</h3>
 <p>TBD.</p>
+</div>
 <h1 id="organisers">Organisers</h1>
 <ul>
 <li><a href="https://pierrealquier.github.io/index.html">Pierre Alquier</a> (ESSEC Business School - ASIA PACIFIC)</li>
@@ -318,18 +348,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -361,11 +380,50 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
-  function tippyHover(el, contentFn) {
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -375,8 +433,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'light-border',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -388,7 +455,130 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -432,6 +622,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -457,6 +648,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -516,6 +733,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
+
 
 
 

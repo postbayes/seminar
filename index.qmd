@@ -17,12 +17,6 @@ This is not a minor difference in semantics, but a major shift in outlook.
 
 This seminar series aims to shed light on the post-Bayesian community’s ongoing work, its successes, and the challenges that lie ahead once we dare to go beyond orthodox Bayesian procedures.
 
-::: {.callout-note}
-## Workshop @ UCL on post-Bayesian methods 15-16th May 2025!
-
-Registration is open, and now accepting submissions! Key dates and further information available [here](https://postbayes.github.io/workshop2025/).
-:::
-
 # Structure
 
 The seminar will run fortnightly from the end of January onwards.
@@ -54,7 +48,41 @@ To join that mailing list, click [this link](https://www.jiscmail.ac.uk/cgi-bin/
 To let us know what chapters you would like to see in the future, who you would like to see lead them, or who you would like to hear talk, submit a suggestion through [this form](https://forms.gle/h5r8VPt2vKBLTRR7A) and we'll see what we can do!
 :::
 
-## Chapter 1: generalised Bayes
+Please select one of the chapters below to see their schedule, talk titles and abstracts, and links to recordings and slides.
+
+```{=html}
+<script>
+    function showContent(clickedElement) {
+        // Hide all content divs
+        var allContents = document.getElementsByClassName('content');
+        for (var i = 0; i < allContents.length; i++) {
+            allContents[i].style.display = 'none';
+        }
+
+        // Deactivate all nav options
+        var allNavOptions = document.getElementsByClassName('nav-option');
+        for (var i = 0; i < allNavOptions.length; i++) {
+            allNavOptions[i].classList.remove('active');
+        }
+
+        // Show the selected content
+        var option = clickedElement.getAttribute('data-option');
+        document.getElementById(option + 'Content').style.display = 'block';
+
+        // Activate the selected nav option
+        clickedElement.classList.add('active');
+    }
+</script>
+
+```
+
+:::{.navbar}
+[**Chapter 1: generalised Bayes**]{.nav-option data-option="chapter1" onclick="showContent(this)"}
+[**Chapter 2: predictive Bayes**]{.nav-option data-option="chapter2" onclick="showContent(this)"}
+[**Chapter 3: PAC Bayes**]{.nav-option data-option="chapter3" onclick="showContent(this)"}
+:::
+
+:::{#chapter1Content .content}
 
 ### Introduction and overview: [Jeremias Knoblauch](https://jeremiasknoblauch.github.io/) (14:00 GMT @ 11.02.2025)
 
@@ -98,7 +126,9 @@ We review the historical motivation in the development of general Bayesian updat
 [[Slides](slides/chris-holmes.pdf)]{.slides}
 [[YouTube](https://youtu.be/fXAyzjh4_Wk)]{.recording}
 
-## Chapter 2: Predictive Bayes
+:::
+
+:::{#chapter2Content .content}
 
 ### Introduction and overview: [Edwin Fong](https://edfong.github.io/) (09:00 GMT @ 06.05.2025)
 
@@ -109,7 +139,10 @@ Chapter 2 of the seminar series explores the predictive view of Bayesian inferen
 
 ### Theoretical foundations of predictive Bayes: [Sandra Fortini](https://dec.unibocconi.eu/people/sandra-fortini) (14:00 GMT @ 20.05.2025)
 
-There is currently a renewed interest in the Bayesian predictive approach to statistics. The talk offers a review on foundational concepts and focuses on predictive modelling, which by directly reasoning on prediction, bypasses inferential models or may characterize them.   The underlying concept is that Bayesian predictive rules formalize through conditional probability how we learn on future events given the available information. This concept has implications in any statistical problem and in inference, from classic contexts to less explored challenges, such as providing Bayesian uncertainty quantification to predictive algorithms in data science.
+There is currently a renewed interest in the Bayesian predictive approach to statistics. The talk offers a review on foundational concepts and focuses on predictive modelling, which by directly reasoning on prediction, bypasses inferential models or may characterize them. The underlying concept is that Bayesian predictive rules formalize through conditional probability how we learn on future events given the available information. This concept has implications in any statistical problem and in inference, from classic contexts to less explored challenges, such as providing Bayesian uncertainty quantification to predictive algorithms in data science.
+
+[[Slides](slides/sandra-fortini.pdf)]{.slides}
+[[YouTube](https://youtu.be/66qTS48OO4A)]{.recording}
 
 ### Predictive model selection and uncertainty : [Vik Shirvaikar](https://vshirvaikar.github.io/) (09:00 GMT @ 03.06.2025)
 
@@ -122,8 +155,10 @@ Predictive Bayes is driving the development of new recursive methods for use in 
 ### Applications of post-Bayesian methods: [Harita Dellaporta](https://haritadell.github.io/) + [Matias Altamirano](https://maltamiranomontero.github.io/) (15.07.2025)
 
 TBD.
+:::
 
-## Chapter 3: PAC-Bayes
+
+:::{#chapter3Content .content}
 
 ### Introduction and overview: [Pierre Alquier](https://pierrealquier.github.io/) (14:00 GMT @ 23.09.2025)
 
@@ -132,6 +167,8 @@ TBD.
 ### Recursive PAC Bayes: [Yevgeny Seldin](https://sites.google.com/site/yevgenyseldin/) (14:00 GMT @ 07.10.2025)
 
 TBD.
+
+:::
 
 # Organisers
 
