@@ -155,6 +155,9 @@ How can the predictive view of Bayesian inference be extended to model selection
 
 Predictive Bayes is driving the development of new recursive methods for use in predictive resampling. In the literature, we observe both the adaptation of existing algorithms and the creation of entirely new ones tailored to this purpose. In this talk, we will explore both perspectives. First, we will review the derivation of several well-established algorithms and examine how they can inspire new proposal mechanisms. Next, we will consider the reverse situation: starting with a preferred algorithm and evaluating its suitability within this emerging framework.
 
+[[Slides](slides/lorenzo-cappello.pdf)]{.slides}
+[[YouTube](https://youtu.be/JPoGU2y_KMk)]{.recording}
+
 ### Applications of post-Bayesian methods: [Harita Dellaporta](https://haritadell.github.io/) + [Matias Altamirano](https://maltamiranomontero.github.io/) (15.07.2025)
 
 TBD.
