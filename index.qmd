@@ -158,7 +158,7 @@ Predictive Bayes is driving the development of new recursive methods for use in 
 [[Slides](slides/lorenzo-cappello.pdf)]{.slides}
 [[YouTube](https://youtu.be/JPoGU2y_KMk)]{.recording}
 
-### Applications of post-Bayesian methods: [Harita Dellaporta](https://haritadell.github.io/) + [Matias Altamirano](https://maltamiranomontero.github.io/) (15.07.2025)
+### Applications of post-Bayesian methods: [Harita Dellaporta](https://haritadell.github.io/) + [Matias Altamirano](https://maltamiranomontero.github.io/) (14:00 GMT @ 23.07.2025)
 
 TBD.
 :::
