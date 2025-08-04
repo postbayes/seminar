@@ -158,7 +158,7 @@ Predictive Bayes is driving the development of new recursive methods for use in 
 [[Slides](slides/lorenzo-cappello.pdf)]{.slides}
 [[YouTube](https://youtu.be/JPoGU2y_KMk)]{.recording}
 
-### Applications of post-Bayesian methods: [Harita Dellaporta](https://haritadell.github.io/) + [Matias Altamirano](https://maltamiranomontero.github.io/) (14:00 GMT @ 23.07.2025)
+### Applications of post-Bayesian methods: [Harita Dellaporta](https://haritadell.github.io/) + [Matias Altamirano](https://maltamiranomontero.github.io/) (14:00 GMT @ 05.08.2025)
 
 This talk explores recent advances in Post-Bayesian inference and their practical applications across a range of inference settings. The first part introduces a novel generalised Bayesian inference scheme based on diffusion score matching, a weighted extension of score-matching divergence. We demonstrate its robustness to outliers, as well as its ability to retain the conjugacy property familiar from standard Bayesian inference. We then discuss its applicability to changepoint detection, Kalman filtering, and Gaussian processes. The second part presents applications of the Bayesian Nonparametric Learning (NPL) framework and the Posterior Bootstrap. These include inference for simulator-based models using maximum mean discrepancy estimators within the NPL framework, as well as measurement error problems where covariates are corrupted by noise. Finally, we briefly mention the application of such generalised notions of Bayesian posteriors in the decision-making setting under uncertainty.
 :::
@@ -178,7 +178,7 @@ TBD.
 
 TBD.
 
-### TBD: [Pascal Germain](https://www.pascalgermain.info/) (14:00 GMT @ 21.10.2025)
+### TBD: [Pascal Germain](https://www.pascalgermain.info/) (14:00 GMT @ 28.10.2025)
 
 TBD.
 
