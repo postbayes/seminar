@@ -172,7 +172,7 @@ This talk explores recent advances in Post-Bayesian inference and their practica
 
 ### Introduction and overview: [Pierre Alquier](https://pierrealquier.github.io/) (14:00 GMT @ 23.09.2025)
 
-TBD.
+The PAC-Bayesian theory provides tools to understand the accuracy of Bayes-inspired algorithms that learn probability distributions on parameters. This theory was initially developed by McAllester about 20 years ago, and applied successfully to various machine learning algorithms for various learning tasks. Recently, it led to tight generalization bounds for deep neural networks, an objective that could not be achieved by standard "worst-case" generalization bounds such as Vapnik-Chervonenkis bounds. In this talk, I will provide a brief introduction to PAC-Bayes bounds, and explain the core ideas of the theory. I will then highlight the relevance of this approach for the post-Bayes community in general. In particular, PAC-Bayes provides a very natural theoretical analysis of variational approximations and other generalized posteriors.
 
 ### TBD: [Dan Roy](http://danroy.org/) (14:00 GMT @ 30.09.2025)
 
@@ -182,9 +182,9 @@ TBD.
 
 TBD.
 
-### TBD: [Pascal Germain](https://www.pascalgermain.info/) (14:00 GMT @ 28.10.2025)
+### PAC-Bayes Hypernetworks: [Pascal Germain](https://www.pascalgermain.info/) (14:00 GMT @ 28.10.2025)
 
-TBD.
+The PAC-Bayesian learning framework has been shown instrumental for deriving tight (non-vacuous) generalization bounds for neural networks. We propose a new way to exploit these results in a meta-learning scheme, relying on a hypernetwork that outputs the parameters of a downstream predictor from a dataset input. The originality of our approach lies in the investigated hypernetwork architectures that encode the dataset before decoding the parameters, explicitly implementing a form of information bottleneck. The PAC-Bayesian encoder expresses a posterior distribution over a latent space, from which we compute generalization guarantees for the "decoded" downstream predictor. The versatility of the PAC-Bayesian learning framework drove us to explore variations of this promising neural network architecture, notably by exploiting elements of the sample compress theory in conjunction with traditional PAC-Bayes methods.
 
 ### TBD: [Benjamin Guedj](https://bguedj.github.io/) (9:00 GMT @ 4.11.2025)
 
