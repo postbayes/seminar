@@ -174,9 +174,12 @@ This talk explores recent advances in Post-Bayesian inference and their practica
 
 The PAC-Bayesian theory provides tools to understand the accuracy of Bayes-inspired algorithms that learn probability distributions on parameters. This theory was initially developed by McAllester about 20 years ago, and applied successfully to various machine learning algorithms for various learning tasks. Recently, it led to tight generalization bounds for deep neural networks, an objective that could not be achieved by standard "worst-case" generalization bounds such as Vapnik-Chervonenkis bounds. In this talk, I will provide a brief introduction to PAC-Bayes bounds, and explain the core ideas of the theory. I will then highlight the relevance of this approach for the post-Bayes community in general. In particular, PAC-Bayes provides a very natural theoretical analysis of variational approximations and other generalized posteriors.
 
-### Removing models and assumptions from Bayesian Decision Making: [Dan Roy](http://danroy.org/) (14:00 GMT @ 30.09.2025)
+[[Slides](https://pierrealquier.github.io/slides/postbayes2025.pdf)]{.slides}
+[[YouTube](https://youtu.be/hT-dD56TN9Y)]{.recording}
 
-TBD.
+### The Size of Teachers as a Measure of Data Complexity: PAC-Bayes Excess Risk Bounds and Scaling Laws: [Dan Roy](http://danroy.org/) (14:00 GMT @ 30.09.2025)
+
+We study the generalization properties of neural networks through the lens of data complexity. Recent work by Buzaglo et al. (2024) shows that random (nearly) interpolating networks generalize, provided there is a small "teacher" network that achieves small excess risk. We give a short single-sample PAC-Bayes proof of this result and an analogous "fast-rate" result for random samples from Gibbs posteriors. The resulting oracle inequality motivates a new notion of data complexity, based on the minimal size of a teacher network required to achieve any given level of excess risk. We show that polynomial data complexity gives rise to power laws connecting risk to the number of training samples, like in empirical neural scaling laws. By comparing the "scaling laws" resulting from our bounds to those observed in empirical studies, we provide evidence for lower bounds on the data complexity of standard benchmarks.
 
 ### Recursive PAC Bayes: [Yevgeny Seldin](https://sites.google.com/site/yevgenyseldin/) (14:00 GMT @ 07.10.2025)
 
