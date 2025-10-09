@@ -192,6 +192,7 @@ I will present a novel and, in retrospect, surprisingly simple and powerful PAC-
 
 If time permits, I will also present applications of PAC-Bayesian analysis to provide generalization guarantees to weighted majority votes.
 
+[[Slides](slides/yevgeny-seldin.pdf)]{.slides}
 [[YouTube](https://youtu.be/We3LZp0EUEM)]{.recording}
 
 ### PAC-Bayes Hypernetworks: [Pascal Germain](https://www.pascalgermain.info/) (14:00 GMT @ 28.10.2025)
