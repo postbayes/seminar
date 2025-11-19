@@ -213,6 +213,9 @@ Generalisation is arguably one of the central problems in machine learning and f
 
 Variational inference (VI) is a cornerstone of modern Bayesian learning, offering tractable approximations to intractable posteriors. At the same time, the PAC-Bayesian framework provides tight and interpretable generalization guarantees for randomized predictors, often formulated in terms of Gibbs posteriors. These two perspectives are deeply connected: non-exact minimization of PAC-Bayes bounds can be interpreted as a form of variational approximation, while tempered and generalized posteriors arising in PAC-Bayes lead to new insights into the theoretical properties of VI. Recent advances highlight how PAC-Bayesian analysis can establish consistency results for variational methods, extend the classical prior mass condition, and motivate divergences beyond KL in practical inference. In this talk, I will explore the interplay between PAC-Bayes and VI, emphasizing how this dual perspective informs both statistical theory and scalable algorithms.
 
+[[Slides](slides/badr-eddine.pdf)]{.slides}
+[[YouTube](https://youtu.be/WZPpDDMj-Wk)]{.recording}
+
 :::
 
 # Organisers
